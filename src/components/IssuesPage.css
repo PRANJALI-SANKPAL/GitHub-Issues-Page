@@ -1,0 +1,67 @@
+.issues-container {
+    margin: 20px;
+    padding: 20px 95px;
+  }
+  
+  .table {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #d3d3d3;
+    border-bottom: none;
+  }
+  
+  .table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ede6e6;
+    border-bottom: 1px solid #d3d3d3;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+
+  .table-row:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .table-cell {
+    padding: 10px;
+  }
+  
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .pagination {
+    text-align: right;
+  }
+  
+  .table-body {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+  }
+  
+  .table-body li {
+    padding: 10px 10px 10px 50px;
+    background-color: #f9fafb;
+    transition: background-color 0.3s;
+  }
+  
+  .table-body li:hover {
+    background-color: #ede6e6;
+  }
+  
+  .table-body li:hover {
+    color: #0550ae;
+    cursor: pointer;
+  }
+  
+  .table-body li {
+    color: #000;
+  }
+  
